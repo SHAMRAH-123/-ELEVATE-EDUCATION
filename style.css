@@ -1,0 +1,253 @@
+*{
+margin: 0;
+line-height: 1.5;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+text-align: center;
+background: rgb(173, 230, 223);
+}
+
+.logo img{
+width: 80px;
+height: 80px;
+margin-bottom: 10px;
+
+}
+.banner img{
+    width: 100%;
+    height: 450px;
+
+}
+.description, .services h2{
+    width: 70%;
+    margin: 0 auto;
+     padding: 10px;
+}
+
+.description h1, .services h2, p{
+    background-color: transparent;
+    
+}
+
+nav{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 139, 0.71);
+}
+nav a{
+background: transparent;
+color: black;
+font-size: 14px;
+font-weight: bold;
+display: block;
+text-decoration: wavy;
+}
+
+ .services h2, .description h1{
+    color:rgba(0, 0, 139, 0.71) ;
+}
+.image {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image img{
+width: 40%;
+
+}
+.image p{
+    width: 60%;
+    margin-left: 5px ;
+    background: rgba(0, 0, 139, 0.71);
+}
+ footer, h4, footer p{
+    padding: 20px 0;
+    background: rgba(0, 0, 139, 0.71);
+}
+footer h4,  footer p{
+padding: 5px;
+background: transparent;
+}
+ 
+
+
+
+
+.heading{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size:19px ;
+    width: 50%;
+    margin: 0 auto;
+    color:rgba(0, 0, 139, 0.71);
+    padding: 5px;
+    text-transform:uppercase ;  
+}
+
+.Information{
+    text-align: center;
+     padding: 20px;
+    
+
+}
+.Information h1{
+    color: rgba(0, 0, 139, 0.71);
+
+}
+.info-container{
+    display: flex;
+    justify-content: center;
+     flex-wrap: wrap;
+     gap: 20px;
+}
+.info-box{
+background-color: rgba(0, 0, 139, 0.71);
+color: black;
+border-radius: 10px;
+padding: 20px;
+width: 300px;
+}
+ .info-box h3{
+color:rgba(255, 255, 255, 0.71) ;
+background-color: transparent;
+ }
+.info-box p, .info-box ul{
+font-size: 16px;
+}
+.info-box li{
+    background-color: transparent;
+    
+}
+.info-box ul{
+    background-color: transparent;
+}
+
+
+
+.IMAGES{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+     max-width: 100%;
+     margin: auto;
+     height: auto;
+     
+}
+.IMAGES h3{
+    justify-content: center;
+}
+.IMAGES p{
+    background-color: transparent;
+
+}
+.IMAGES  div{
+    width: 50%;
+    margin: 30px;
+}
+.IMAGES img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+.IMAGES h3{
+    font-size: 20px;
+    color: rgba(0, 0, 139, 0.71);
+}
+
+
+form p, .links p{
+    width: 50%;
+    margin: 10px auto;
+    padding: 7px;
+    font-size: 16px;
+    background-color: transparent;
+}
+input, textarea{
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 2px solid gray;
+    padding: 8px;
+    text-align: left;
+    font-size: 15px;
+    
+}
+.Sign-btn{
+    background:rgba(0, 0, 139, 0.71) ;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+
+.links ul{
+    padding-left: 0;
+    margin-left: 0;
+    list-style-position: inside;
+    
+    
+}
+.
+
+
+
+
+
+
+
+@media( max-width:800px) {
+.banner img{
+    width: 200px;
+    min-width: 60px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.image img{
+    width: 300px;
+    min-width: 50px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.IMAGES img{
+    width: 300px;
+    min-width: 50px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
